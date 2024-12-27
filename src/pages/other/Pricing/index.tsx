@@ -4,7 +4,7 @@ import PricingPlans from './PricingPlans'
 import { benefits } from './data'
 import CTA from './CTA'
 import { Footer } from '@/components'
-import FAQSTWO from './FAQsTWO'
+import FAQSTWO from './FAQSTWO'
 import FAQSTHREE from './FAQSTHREE'
 import FAQSONE from './FAQSONE'
 

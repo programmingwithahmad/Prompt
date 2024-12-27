@@ -8,7 +8,7 @@ import { integrations, planFeatures } from './data'
 import Services from '../PortFolio/Services'
 import { services } from '../PortFolio/data'
 import Practice from './practice'
-import MoreFeatures from './moreFeatures'
+import MoreFeatures from './MoreFeatures'
 
 const Startup = () => {
 	return (
