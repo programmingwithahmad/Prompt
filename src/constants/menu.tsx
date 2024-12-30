@@ -35,161 +35,173 @@ const MENU_ITEMS: MenuItemTypes[] = [
 		isTitle: false,
 	},
 	{
-		key: 'landing',
-		label: 'Landing',
+		key: 'about-us',
+		label: 'About us',
+		url: '/about-us',
 		isTitle: false,
-		children: [
-			{
-				key: 'app',
-				label: 'App',
-				url: '/landing/app',
-				parentKey: 'landing',
-			},
-			{
-				key: 'sass-classic',
-				label: 'Sass Classic',
-				url: '/landing/sass-classic',
-				parentKey: 'landing',
-			},
-			{
-				key: 'software',
-				label: 'Software',
-				url: '/landing/software',
-				parentKey: 'landing',
-			},
-			{
-				key: 'coworkng',
-				label: 'Coworking',
-				url: '/landing/coworking',
-				parentKey: 'landing',
-			},
-			{
-				key: 'marketing',
-				label: 'Marketing',
-				url: '/landing/marketing',
-				parentKey: 'landing',
-			},
-			{
-				key: 'sass-modern',
-				label: 'Sass Modern',
-				url: '/landing/sass-modern',
-				parentKey: 'landing',
-			},
-			{
-				key: 'startup',
-				label: 'Startup',
-				url: '/landing/startup',
-				parentKey: 'landing',
-			},
-			{
-				key: 'agency',
-				label: 'Agency',
-				url: '/landing/agency',
-				parentKey: 'landing',
-			},
-			{
-				key: 'crypto',
-				label: 'Crypto',
-				url: '/landing/crypto',
-				parentKey: 'landing',
-			},
-			{
-				key: 'potfolio-landing',
-				label: 'Portfolio',
-				url: '/landing/portfolio',
-				parentKey: 'landing',
-			},
-		],
 	},
 	{
-		key: 'pages',
-		label: 'Pages',
+		key: 'faqs',
+		label: 'FAQs',
+		url: '/faqs',
 		isTitle: false,
-		children: [
-			{
-				key: 'company',
-				label: 'Company',
-				url: '/pages/company',
-				parentKey: 'pages',
-			},
-			{
-				key: 'dashboard',
-				label: 'Dashboard',
-				url: '/pages/dashboard',
-				parentKey: 'pages',
-			},
-			{
-				key: 'career',
-				label: 'Career',
-				url: '/pages/career',
-				parentKey: 'pages',
-			},
-			{
-				key: 'pricing',
-				label: 'Pricing',
-				url: '/pages/pricing',
-				parentKey: 'pages',
-			},
+	},
+	// {
+	// 	key: 'landing',
+	// 	label: 'Landing',
+	// 	isTitle: false,
+	// 	children: [
+	// 		{
+	// 			key: 'app',
+	// 			label: 'App',
+	// 			url: '/landing/app',
+	// 			parentKey: 'landing',
+	// 		},
+	// 		{
+	// 			key: 'sass-classic',
+	// 			label: 'Sass Classic',
+	// 			url: '/landing/sass-classic',
+	// 			parentKey: 'landing',
+	// 		},
+	// 		{
+	// 			key: 'software',
+	// 			label: 'Software',
+	// 			url: '/landing/software',
+	// 			parentKey: 'landing',
+	// 		},
+	// 		{
+	// 			key: 'coworkng',
+	// 			label: 'Coworking',
+	// 			url: '/landing/coworking',
+	// 			parentKey: 'landing',
+	// 		},
+	// 		{
+	// 			key: 'marketing',
+	// 			label: 'Marketing',
+	// 			url: '/landing/marketing',
+	// 			parentKey: 'landing',
+	// 		},
+	// 		{
+	// 			key: 'sass-modern',
+	// 			label: 'Sass Modern',
+	// 			url: '/landing/sass-modern',
+	// 			parentKey: 'landing',
+	// 		},
+	// 		{
+	// 			key: 'startup',
+	// 			label: 'Startup',
+	// 			url: '/landing/startup',
+	// 			parentKey: 'landing',
+	// 		},
+	// 		{
+	// 			key: 'agency',
+	// 			label: 'Agency',
+	// 			url: '/landing/agency',
+	// 			parentKey: 'landing',
+	// 		},
+	// 		{
+	// 			key: 'crypto',
+	// 			label: 'Crypto',
+	// 			url: '/landing/crypto',
+	// 			parentKey: 'landing',
+	// 		},
+	// 		{
+	// 			key: 'potfolio-landing',
+	// 			label: 'Portfolio',
+	// 			url: '/landing/portfolio',
+	// 			parentKey: 'landing',
+	// 		},
+	// 	],
+	// },
+	// {
+	// 	key: 'pages',
+	// 	label: 'Pages',
+	// 	isTitle: false,
+	// 	children: [
+	// 		{
+	// 			key: 'company',
+	// 			label: 'Company',
+	// 			url: '/pages/company',
+	// 			parentKey: 'pages',
+	// 		},
+	// 		{
+	// 			key: 'dashboard',
+	// 			label: 'Dashboard',
+	// 			url: '/pages/dashboard',
+	// 			parentKey: 'pages',
+	// 		},
+	// 		{
+	// 			key: 'career',
+	// 			label: 'Career',
+	// 			url: '/pages/career',
+	// 			parentKey: 'pages',
+	// 		},
+	// 		{
+	// 			key: 'pricing',
+	// 			label: 'Pricing',
+	// 			url: '/pages/pricing',
+	// 			parentKey: 'pages',
+	// 		},
 
-			{
-				key: 'setting',
-				label: 'Setting',
-				url: '/pages/setting',
-				parentKey: 'pages',
-			},
-			{
-				key: 'help',
-				label: 'Help',
-				url: '/pages/help',
-				parentKey: 'pages',
-			},
-		],
-	},
-	{
-		key: 'portfolio',
-		label: 'Portfolio',
-		isTitle: false,
-		children: [
-			{
-				key: 'portfolio-grid',
-				url: '/pages/portfolio/grid',
-				label: 'Portfolio Grid',
-				parentKey: 'portfolio',
-			},
-			{
-				key: 'portfolio-masonry',
-				url: '/pages/portfolio/masonry',
-				label: 'Portfolio Masonry',
-				parentKey: 'portfolio',
-			},
-			{
-				key: 'portfolio-item',
-				url: '/pages/portfolio/item',
-				label: 'Portfolio Item',
-				parentKey: 'portfolio',
-			},
-		],
-	},
-	{
-		key: 'blogs',
-		label: 'Blog',
-		parentKey: 'Pages',
-		isDivider: false,
-		children: [
-			{
-				key: 'Blog',
-				label: 'Blog',
-				url: '/pages/blogs/list',
-				parentKey: 'blogs',
-			},
-			{
-				key: 'blog-Post',
-				label: 'Blog Post',
-				url: '/pages/blogs/post',
-				parentKey: 'blogs',
-			},
-		],
-	},
+	// 		{
+	// 			key: 'setting',
+	// 			label: 'Setting',
+	// 			url: '/pages/setting',
+	// 			parentKey: 'pages',
+	// 		},
+	// 		{
+	// 			key: 'help',
+	// 			label: 'Help',
+	// 			url: '/pages/help',
+	// 			parentKey: 'pages',
+	// 		},
+	// 	],
+	// },
+	// {
+	// 	key: 'portfolio',
+	// 	label: 'Portfolio',
+	// 	isTitle: false,
+	// 	children: [
+	// 		{
+	// 			key: 'portfolio-grid',
+	// 			url: '/pages/portfolio/grid',
+	// 			label: 'Portfolio Grid',
+	// 			parentKey: 'portfolio',
+	// 		},
+	// 		{
+	// 			key: 'portfolio-masonry',
+	// 			url: '/pages/portfolio/masonry',
+	// 			label: 'Portfolio Masonry',
+	// 			parentKey: 'portfolio',
+	// 		},
+	// 		{
+	// 			key: 'portfolio-item',
+	// 			url: '/pages/portfolio/item',
+	// 			label: 'Portfolio Item',
+	// 			parentKey: 'portfolio',
+	// 		},
+	// 	],
+	// },
+	// {
+	// 	key: 'blogs',
+	// 	label: 'Blog',
+	// 	parentKey: 'Pages',
+	// 	isDivider: false,
+	// 	children: [
+	// 		{
+	// 			key: 'Blog',
+	// 			label: 'Blog',
+	// 			url: '/pages/blogs/list',
+	// 			parentKey: 'blogs',
+	// 		},
+	// 		{
+	// 			key: 'blog-Post',
+	// 			label: 'Blog Post',
+	// 			url: '/pages/blogs/post',
+	// 			parentKey: 'blogs',
+	// 		},
+	// 	],
+	// },
 	{
 		key: 'auth',
 		label: 'Account',
@@ -221,12 +233,12 @@ const MENU_ITEMS: MenuItemTypes[] = [
 			},
 		],
 	},
-	{
-		key: 'contact-us',
-		label: 'Contact us',
-		url: '/contact-us',
-		isTitle: false,
-	},
+	// {
+	// 	key: 'contact-us',
+	// 	label: 'Contact us',
+	// 	url: '/contact-us',
+	// 	isTitle: false,
+	// },
 ]
 
 const HORIZONTAL_MENU_ITEMS: MenuItemTypes[] = [
@@ -234,7 +246,19 @@ const HORIZONTAL_MENU_ITEMS: MenuItemTypes[] = [
 		key: 'home',
 		label: 'Home',
 		url: '/',
-		isTitle: true,
+		isTitle: false,
+	},
+	{
+		key: 'about-us',
+		label: 'About us',
+		url: '/about-us',
+		isTitle: false,
+	},
+	{
+		key: 'faqs',
+		label: 'FAQs',
+		url: '/faqs',
+		isTitle: false,
 	},
 	// {
 	// 	key: 'landing',
@@ -433,18 +457,18 @@ const HORIZONTAL_MENU_ITEMS: MenuItemTypes[] = [
 	// 	url: '/contact-us',
 	// 	isTitle: true,
 	// },
-	{
-		key: 'contact-us',
-		label: 'About us',
-		url: '/about-us',
-		isTitle: true,
-	},
-	{
-		key: 'contact-us',
-		label: 'FAQs',
-		url: '/faqs',
-		isTitle: true,
-	},
+	// {
+	// 	key: 'contact-us',
+	// 	label: 'About us',
+	// 	url: '/about-us',
+	// 	isTitle: true,
+	// },
+	// {
+	// 	key: 'contact-us',
+	// 	label: 'FAQs',
+	// 	url: '/faqs',
+	// 	isTitle: true,
+	// },
 ]
 
 export { HORIZONTAL_MENU_ITEMS, MENU_ITEMS }

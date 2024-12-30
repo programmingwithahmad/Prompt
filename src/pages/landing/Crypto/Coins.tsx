@@ -8,19 +8,23 @@ type CoinsProps = {
 
 const Coins = ({ coins }: CoinsProps) => {
 	return (
-		<section className="py-20 bg-[#ece8ce]" data-aos="fade-up">
+		<section className="py-20 bg-blue-100/30" data-aos="fade-up">
 			<div className="container">
 				<div className="text-center">
-					<h1 className="text-3xl font-medium">Supported coins</h1>
+					<h1 className="text-3xl font-medium text-gray-600">
+						Supported coins
+					</h1>
 					<p className="font-medium text-slate-500 mt-5 mb-4">
-						Fastest way to buy or sell
-						<span className="text-slate-900">popular</span> crypto coins.
+						Fastest way to buy or sell popular crypto coins.
 					</p>
 				</div>
-				<div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-5 gap-y-14 mt-16">
+				<div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-5 gap-y-10 mt-16">
 					{(coins || []).map((coin, idx) => {
 						return (
-							<div className="flex items-center gap-5" key={idx}>
+							<div
+								className="flex flex-col items-center md:flex-row md:items-center gap-5"
+								key={idx}
+							>
 								<div
 									className={`h-12 w-12 ${coin.variant} rounded-full flex items-center justify-center`}
 								>
@@ -34,11 +38,14 @@ const Coins = ({ coins }: CoinsProps) => {
 										}`}
 									/>
 								</div>
-								<h4 className="text-base">{coin.name}</h4>
+								<h4 className="text-base text-center md:text-left">
+									{coin.name}
+								</h4>
 							</div>
 						)
 					})}
 				</div>
+
 				<div className="text-center mt-16">
 					<Link
 						to=""

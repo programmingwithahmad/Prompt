@@ -50,11 +50,11 @@ const Features = () => {
 							/>
 						</div>
 						<div>
-							<h1 className="text-3xl/tight font-medium mt-3 mb-4">
+							<h1 className="text-3xl/tight font-medium mt-3 mb-4 text-center lg:text-start">
 								We want everyone to be able to fulfill their desires and
 								opportunities.
 							</h1>
-							<p className="text-gray-500">
+							<p className="text-gray-500 text-center lg:text-start">
 								Our team has created not just another project for traders. First
 								of all, we developed a platform for the widest possible
 								audience. For people who want to learn how to use advanced

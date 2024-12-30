@@ -69,7 +69,7 @@ const Navbar = () => {
 			</header>
 			<OffcanvasLayout
 				placement="end"
-				sizeClassName="w-[447px] bg-white border-s"
+				sizeClassName="w-full sm:w-[447px] bg-white border-s"
 				open={isOpenOffcanvas}
 				toggleOffcanvas={closeOffcanvas}
 			>
@@ -88,9 +88,12 @@ const Navbar = () => {
 						<VerticalMenu menuItems={getMenuItems()} />
 					</div>
 					{/* Mobile Menu Download Button (Footer) */}
-					<div className="p-6 flex items-center justify-center">
-						<button className="bg-primary w-full text-white p-3 rounded flex items-center justify-center text-sm">
-							Download
+					<div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-2">
+						<button className="bg-[#374151] w-full text-white py-4 rounded flex items-center justify-center text-sm">
+							Demo Account
+						</button>
+						<button className="bg-[#008000] w-full text-white py-4 rounded flex items-center justify-center text-sm">
+							Open real account
 						</button>
 					</div>
 				</div>

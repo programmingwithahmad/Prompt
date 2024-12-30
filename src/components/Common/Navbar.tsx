@@ -348,7 +348,7 @@ const Navbar = () => {
 					{/* Mobile Menu User (Footer) */}
 					<div className="px-6 py-4 flex items-center">
 						<button className="bg-primary w-full text-white p-3 rounded flex items-center justify-center text-sm">
-							Download
+							Downloadsss
 						</button>
 					</div>
 				</div>

@@ -44,7 +44,7 @@ const FeedBack = () => {
 		<section className="py-16 sm:py-28 overflow-x-hidden">
 			<div className="container" data-aos="fade-up" data-aos-duration="600">
 				<div className="grid xl:grid-cols-4 grid-cols-3 gap-6">
-					<div className="col-span-3 lg:col-span-1">
+					<div className="col-span-3 lg:col-span-1 justify-items-center lg:justify-items-start">
 						<span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
 							Quotex
 						</span>

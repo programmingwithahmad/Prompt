@@ -11,19 +11,19 @@ const Hero = () => {
 			<div className="container">
 				<div className="grid lg:grid-cols-2 grid-cols-1 gap-10 items-center">
 					<div>
-						<h1 className="md:text-5xl/tight text-3xl font-semibold mb-7">
+						<h1 className="md:text-5xl/tight text-center lg:text-left text-3xl font-semibold mb-7">
 							Innovative&nbsp;
 							<span className="relative after:bg-green-200 md:after:h-6 after:h-4 after:w-full after:inset-x-0 after:bottom-0 after:absolute after:-z-10">
 								platform
 							</span>{' '}
 							for smart investments&nbsp;
 						</h1>
-						<p className="text-slate-500 leading-7">
+						<p className="text-slate-500 leading-7 text-center lg:text-left">
 							Sign up and get 10,000 USD to your demo account to learn how to
 							trade.
 						</p>
 						<div className="py-14">
-							<div className="flex flex-wrap items-center gap-4 justify-center md:justify-stretch">
+							<div className="flex flex-wrap items-center gap-4 justify-center lg:justify-stretch">
 								<Link
 									to=""
 									className="py-4 px-4 font-bold rounded-lg text-white bg-[#0faf59] hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"
@@ -40,11 +40,12 @@ const Hero = () => {
 							</div>
 						</div>
 					</div>
-					<div className="2xl:w-[130%] relative ms-20">
-						<div className="p-3 rounded-md bg-white shadow-lg">
+					<div className="2xl:w-[130%] relative lg:ms-20">
+						<div className="p-3 rounded-md bg-white shadow-lg justi">
 							<img src={crypto} className="rounded-md" />
 						</div>
-						<div className="hidden sm:block">
+						{/* <div className="hidden sm:block"> */}
+						<div className="hidden lg:block">
 							<div className="after:w-32 after:h-32 after:absolute after:-bottom-10 after:-start-12 after:-z-10 after:bg-[url('@/assets/images/pattern/dot2.svg')]" />
 						</div>
 					</div>

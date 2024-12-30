@@ -13,7 +13,7 @@ const MoreFeatures = () => {
 						</div>
 
 						<div className="py-16">
-							<div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5">
+							<div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5 ">
 								<div className="order-1">
 									<div className="flex flex-col gap-5">
 										<p className="flex items-center gap-3">

@@ -20,27 +20,24 @@ const Footer2 = ({ socialIcon }: socialIcons) => {
 								Create your free 14-day trial account now
 							</p>
 						</div>
-						<div className="flex flex-wrap items-center justify-start lg:justify-end gap-7 mt-5 lg:mt-0">
-							<button className="flex items-center w-500">
-								<Link
-									to=""
-									className="bg-[green] text-white font-bold hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 py-8 px-16 rounded-lg"
-								>
-									Open real account
-								</Link>
-							</button>
-							<button className="flex items-center">
-								<Link
-									to=""
-									className="bg-gray-700 text-white font-bold hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 py-8 px-16 rounded-lg"
-								>
-									Demo account
-								</Link>
-							</button>
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+							<Link
+								to=""
+								className="bg-[green] text-white font-bold hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 py-6 rounded-lg text-center"
+							>
+								Open real account
+							</Link>
+							<Link
+								to=""
+								className="bg-gray-700 text-white font-bold hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 py-6 rounded-lg text-center"
+							>
+								Demo account
+							</Link>
 						</div>
 					</div>
 				</div>
 			</div>
+
 			<div className="border-b" />
 			<div className="container bg-gray-100">
 				<div className="grid lg:grid-cols-2 grid-cols-1 gap-14 py-6">
