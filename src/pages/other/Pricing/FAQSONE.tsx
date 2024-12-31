@@ -1,5 +1,6 @@
 import { FAQContent, FUCollapse } from '@/components'
 import { useState } from 'react'
+import './../../../global.css'
 
 const FAQSONE = () => {
 	const [basicAccordion, setBasicAccordion] = useState<number | null>(0)

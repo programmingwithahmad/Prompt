@@ -1,0 +1,38 @@
+/* Global Heading Styles */
+.heading-h1 {
+	@apply md:text-5xl/tight text-4xl font-bold text-gray-800;
+}
+
+.heading-h2 {
+	@apply text-3xl font-semibold text-gray-700;
+}
+
+.heading-h3 {
+	@apply text-lg font-medium text-gray-600;
+}
+
+.heading-h4 {
+	@apply text-xl font-medium text-gray-600;
+}
+
+.heading-h5 {
+	@apply text-lg font-normal text-gray-500;
+}
+
+.heading-h6 {
+	@apply text-base font-normal text-gray-500;
+}
+
+.btn-primary {
+	@apply text-lg font-bold text-white;
+}
+
+/* <div className="flex flex-wrap items-center gap-5 mt-12 justify-center lg:justify-start">
+<Link
+	to=""
+	className="py-4 px-10 font-bold text-lg rounded border text-white bg-[#0faf59] hover:shadow-lg hover:shadow-primary/50 transition-all duration-500"
+>
+	Try it for free
+</Link>
+<p>Practice demo account without registration.</p>
+</div> */

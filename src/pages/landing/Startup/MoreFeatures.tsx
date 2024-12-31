@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import './../../../global.css'
 
 const MoreFeatures = () => {
 	return (
@@ -7,9 +8,7 @@ const MoreFeatures = () => {
 				<div className="xl:py-16 py-12 mt-8">
 					<div className="container" data-aos="fade-up" data-aos-duration="600">
 						<div className="text-center">
-							<h1 className="text-2xl font-medium">
-								Any many more powerful features
-							</h1>
+							<h2 className="heading-h2">Any many more powerful features</h2>
 						</div>
 
 						<div className="py-16">

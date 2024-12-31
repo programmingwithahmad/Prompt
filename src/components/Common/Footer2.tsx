@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import './../../global.css'
 
 //image
 import logoDark from '@/assets/images/logo-dark.png'
@@ -13,9 +14,7 @@ const Footer2 = ({ socialIcon }: socialIcons) => {
 				<div className="container">
 					<div className="grid lg:grid-cols-2 items-center">
 						<div>
-							<h1 className="text-2xl font-medium mt-3 mb-2">
-								Ready to get started?
-							</h1>
+							<h2 className="heading-h2 mt-3 mb-2">Ready to get started?</h2>
 							<p className="text-gray-500">
 								Create your free 14-day trial account now
 							</p>
@@ -23,13 +22,13 @@ const Footer2 = ({ socialIcon }: socialIcons) => {
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
 							<Link
 								to=""
-								className="bg-[green] text-white font-bold hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 py-6 rounded-lg text-center"
+								className="bg-[green] btn-primary hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 py-5 rounded-md text-center"
 							>
 								Open real account
 							</Link>
 							<Link
 								to=""
-								className="bg-gray-700 text-white font-bold hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 py-6 rounded-lg text-center"
+								className="bg-gray-700 btn-primary hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 py-5 rounded-md text-center"
 							>
 								Demo account
 							</Link>

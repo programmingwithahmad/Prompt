@@ -1,5 +1,6 @@
 import { FormInput } from '@/components'
 import { Link } from 'react-router-dom'
+import './../../../global.css'
 import Typist from 'react-text-typist'
 
 //image
@@ -11,7 +12,7 @@ const Hero = () => {
 			<div className="container">
 				<div className="grid lg:grid-cols-2 grid-cols-1 gap-10 items-center">
 					<div>
-						<h1 className="md:text-5xl/tight text-center lg:text-left text-3xl font-semibold mb-7">
+						<h1 className="heading-h1 text-center lg:text-left mb-7">
 							Innovative&nbsp;
 							<span className="relative after:bg-green-200 md:after:h-6 after:h-4 after:w-full after:inset-x-0 after:bottom-0 after:absolute after:-z-10">
 								platform
@@ -26,7 +27,7 @@ const Hero = () => {
 							<div className="flex flex-wrap items-center gap-4 justify-center lg:justify-stretch">
 								<Link
 									to=""
-									className="py-4 px-4 font-bold rounded-lg text-white bg-[#0faf59] hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"
+									className="py-5 px-4 btn-primary primary rounded bg-[#0faf59] hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"
 								>
 									Create a free account
 								</Link>

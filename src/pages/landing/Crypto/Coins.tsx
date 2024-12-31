@@ -1,6 +1,7 @@
 // types
 import { Link } from 'react-router-dom'
 import { Coin } from './types'
+import './../../../global.css'
 
 type CoinsProps = {
 	coins: Coin[]
@@ -11,9 +12,7 @@ const Coins = ({ coins }: CoinsProps) => {
 		<section className="py-20 bg-blue-100/30" data-aos="fade-up">
 			<div className="container">
 				<div className="text-center">
-					<h1 className="text-3xl font-medium text-gray-600">
-						Supported coins
-					</h1>
+					<h2 className="heading-h2 text-gray-600">Supported coins</h2>
 					<p className="font-medium text-slate-500 mt-5 mb-4">
 						Fastest way to buy or sell popular crypto coins.
 					</p>
@@ -49,7 +48,7 @@ const Coins = ({ coins }: CoinsProps) => {
 				<div className="text-center mt-16">
 					<Link
 						to=""
-						className="py-3 px-6 rounded border border-primary text-white bg-primary hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"
+						className="py-5 px-4 btn-primary rounded border text-white bg-slate-500 hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"
 					>
 						View complete list <i className="fa-solid fa-arrow-right ms-2" />
 					</Link>

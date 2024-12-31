@@ -1,5 +1,6 @@
 // types
 import { Feature } from './types'
+import './../../../global.css'
 
 //images
 import whiteWave from '@/assets/images/shapes/white-wave.svg'
@@ -16,9 +17,7 @@ const Features = ({ features }: FeaturesProps) => {
 					<span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
 						Why Choose Us
 					</span>
-					<h1 className="text-3xl font-medium my-3">
-						Features of the platform
-					</h1>
+					<h2 className="heading-h2 my-3">Features of the platform</h2>
 					<p className="text-gary-600 mt-5 mb-4">
 						We regularly improve our platform to make your trading comfortable
 						and safe.
@@ -29,7 +28,7 @@ const Features = ({ features }: FeaturesProps) => {
 						return (
 							<div
 								key={idx}
-								className="flex flex-col p-5 items-center gap-5 bg-[#ece8ce]  rounded-md shadow-slate-300 justify-start"
+								className="flex flex-col p-5 items-center gap-5 bg-stone-100 shadow-lg  rounded-md shadow-slate-300 justify-start"
 							>
 								<div>
 									<div className="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-md">
@@ -37,7 +36,7 @@ const Features = ({ features }: FeaturesProps) => {
 									</div>
 								</div>
 								<div className="flex flex-col items-center">
-									<h5 className="text-black font-bold">{feature.title}</h5>
+									<h3 className="heading-h3">{feature.title}</h3>
 									<p className="text-gary-600 mt-3">{feature.description}</p>
 								</div>
 							</div>

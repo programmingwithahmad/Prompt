@@ -1,5 +1,6 @@
 import { FAQContent, FUCollapse } from '@/components'
 import { useState } from 'react'
+import './../../../global.css'
 
 const FAQs = () => {
 	const [basicAccordion, setBasicAccordion] = useState<number | null>(0)
@@ -15,9 +16,7 @@ const FAQs = () => {
 					{/* <span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
 						FAQs
 					</span> */}
-					<h2 className="md:text-3xl/tight text-3xl font-semibold my-4">
-						Frequently asked questions
-					</h2>
+					<h2 className="heading-h2 my-4">Frequently asked questions</h2>
 					<p className="md:text-lg text-slate-500 leading-7">
 						Here are some of the basic types of questions for our customers
 					</p>

@@ -8,6 +8,7 @@ import avatar3 from '@/assets/images/avatars/img-3.jpg'
 import google from '@/assets/images/brands/google.svg'
 import amazon from '@/assets/images/brands/amazon.svg'
 import lenovo from '@/assets/images/brands/lenovo.svg'
+import './../../global.css'
 
 interface SlideProps {
 	image: string
@@ -48,9 +49,7 @@ const FeedBack = () => {
 						<span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
 							Quotex
 						</span>
-						<h1 className="text-3xl/tight font-medium mt-3 mb-4">
-							Modern Plateform
-						</h1>
+						<h2 className="heading-h2 mt-3 mb-4">Modern Plateform</h2>
 						<p className="text-gray-500">
 							A friendly platform for modern people
 						</p>
@@ -73,7 +72,7 @@ const FeedBack = () => {
 							</div>
 
 							<div id="swiper_one" className="swiper relative">
-								<div className="p-10 border rounded-xl bg-white shadow">
+								<div className="p-10 border rounded-xl bg-white shadow text-center lg:text-left">
 									The problem is that all the opportunities are usually provided
 									in private for close circle of people. And participating in
 									trading on the exchange, according to the majority, is

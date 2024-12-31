@@ -52,10 +52,10 @@ const Navbar = () => {
 							<AppMenu menuItems={getHorizontalMenuItems()} />
 						</div>
 						<div className="hidden lg:flex items-center ms-auto gap-2">
-							<button className="bg-[black] text-white px-4 py-3 rounded inline-flex items-center text-sm font-bold">
+							<button className="bg-[black] btn-primary px-4 py-4 rounded-md inline-flex items-center">
 								Log in
 							</button>
-							<button className="bg-[#007aff] text-white px-4 py-3 rounded inline-flex items-center text-sm font-bold">
+							<button className="bg-[#007aff] btn-primary px-4 py-4 rounded-md inline-flex items-center">
 								Sign up
 							</button>
 						</div>
@@ -84,7 +84,10 @@ const Navbar = () => {
 						</button>
 					</div>
 					{/* Mobile Menu Link List */}
-					<div className="p-6 overflow-scroll h-full" id="right-menu">
+					<div
+						className="p-6 overflow-scroll::-webkit-scrollbar {display: none} scroll- h-full"
+						id="right-menu"
+					>
 						<VerticalMenu menuItems={getMenuItems()} />
 					</div>
 					{/* Mobile Menu Download Button (Footer) */}

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import './../../../global.css'
 
 //images
 import startup1 from '@/assets/images/hero/startup1.svg'
@@ -11,14 +12,14 @@ const Hero = () => {
 				<div className="container">
 					<div className="grid lg:grid-cols-7 grid-cols-1 gap-16 items-center">
 						<div className="lg:col-span-3 order-2 lg:order-1 text-center sm:text-start">
-							<h1 className="text-3xl/tight sm:text-4xl/tight lg:text-5xl/tight font-semibold mb-7">
+							<h1 className="heading-h1 mb-7">
 								<span className="relative z-0 after:bg-yellow-200 after:-z-10 after:absolute after:h-6 after:w-full after:bottom-0 after:end-0">
 									About us
 								</span>
 							</h1>
-							<h2 className="py-2">
+							<p className="text-lg py-2">
 								QUOTEX — it is a new level trading platform.
-							</h2>
+							</p>
 							<p className="text-gray-500">
 								Our team launched the project in 2019, but has already managed
 								to declare itself. Each of our developers is a specialist of the

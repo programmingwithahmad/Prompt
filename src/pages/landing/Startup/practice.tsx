@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import './../../../global.css'
 
 //image
 import desktop1 from '@/assets/images/features/desktop1.gif'
@@ -11,9 +12,9 @@ const Practice = () => {
 				<div>
 					<div className="grid lg:grid-cols-2 grid-cols-1 2xl:gap-24 gap-10 items-center">
 						<div className="order-2 lg:order-1">
-							<h1 className="text-3xl/tight font-medium mt-3 mb-4 text-center lg:text-left">
+							<h2 className="heading-h2 mt-3 mb-4 text-center lg:text-left">
 								Any doubts? Practice without risk with a demo account.
-							</h1>
+							</h2>
 							<p className="text-gray-500 text-center lg:text-left">
 								We are open to our visitors. Therefore, if you have distrust
 								amid hundreds of projects related to trading on the stock
@@ -25,7 +26,7 @@ const Practice = () => {
 							<button className="mt-12 flex items-center justify-self-center lg:justify-self-start">
 								<Link
 									to=""
-									className="border text-white font-bold bg-[#0FAF59] rounded-md bg-green hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 transition-all duration-500 py-8 px-24"
+									className="border btn-primary bg-[#0FAF59] rounded-md bg-green hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 transition-all duration-500 py-5 px-12"
 								>
 									Demo Account <i className="fa-solid fa-arrow-right ms-2" />
 								</Link>

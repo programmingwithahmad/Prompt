@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import './../../../global.css'
 
 //iamges
 import blog1 from '@/assets/images/blog/blog-1.png'
@@ -10,7 +11,7 @@ const Blog = () => {
 		<section className="py-20">
 			<div className="container">
 				<div className="text-center">
-					<h1 className="text-3xl font-medium my-3">Useful Reading</h1>
+					<h2 className="heading-h2 my-3">Useful Reading</h2>
 					<p className="text-slate-500 mt-5 mb-4">
 						Few articles to read to know more about cryptocurrency
 					</p>
@@ -34,9 +35,9 @@ const Blog = () => {
 							<img src={blog1} className="rounded-md" />
 						</div>
 						<p className="text-slate-500 mt-5">May 19 2020 . 5 min read</p>
-						<h4 className="mt-1 text-lg">
+						<h3 className="mt-1 heading-h3">
 							<Link to="">Introducing blazzing fast new user interface</Link>
-						</h4>
+						</h3>
 					</div>
 					<div>
 						<div
@@ -56,9 +57,9 @@ const Blog = () => {
 							<img src={blog3} className="rounded-md" />
 						</div>
 						<p className="text-slate-500 mt-5">May 18 2020 . 8 min read</p>
-						<h4 className="mt-1 text-lg">
+						<h3 className="mt-1 heading-h3">
 							<Link to="">What you should know before buying bitcoin</Link>
-						</h4>
+						</h3>
 					</div>
 					<div>
 						<div
@@ -78,9 +79,9 @@ const Blog = () => {
 							<img src={blog2} className="rounded-md" />
 						</div>
 						<p className="text-slate-500 mt-5">May 13 2020 . 2 min read</p>
-						<h4 className="mt-1 text-lg">
+						<h3 className="mt-1 heading-h3">
 							<Link to="">A biggest crypto event to attend this month</Link>
-						</h4>
+						</h3>
 					</div>
 				</div>
 			</div>
