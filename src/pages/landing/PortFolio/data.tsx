@@ -11,24 +11,29 @@ import google from '@/assets/images/brands/google.svg'
 import avatar1 from '@/assets/images/avatars/img-1.jpg'
 import avatar2 from '@/assets/images/avatars/img-2.jpg'
 
+import platform1 from '@/assets/images/platform/platform1.jpg'
+import platform2 from '@/assets/images/platform/platform2.jpg'
+import platform3 from '@/assets/images/platform/platform4.jpg'
+import platform4 from '@/assets/images/platform/platform3.jpg'
+
 const services: Service[] = [
 	{
-		icon: '🎯',
+		icon: platform1,
 		title: 'We choose',
 		description: 'Asset of interest.',
 	},
 	{
-		icon: '⏱️',
+		icon: platform2,
 		title: 'Install',
 		description: 'The size of the bet and the time of closing the deal.',
 	},
 	{
-		icon: '📊',
+		icon: platform3,
 		title: 'We do',
 		description: 'Forecast according to the schedule for a given time.',
 	},
 	{
-		icon: '🏆',
+		icon: platform4,
 		title: 'We get',
 		description: 'Result of the transaction.',
 	},

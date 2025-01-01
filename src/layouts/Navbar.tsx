@@ -52,10 +52,10 @@ const Navbar = () => {
 							<AppMenu menuItems={getHorizontalMenuItems()} />
 						</div>
 						<div className="hidden lg:flex items-center ms-auto gap-2">
-							<button className="bg-[black] btn-primary px-4 py-4 rounded-md inline-flex items-center">
+							<button className="bg-[black] btn-primary px-4 py-2 rounded-md inline-flex items-center">
 								Log in
 							</button>
-							<button className="bg-[#007aff] btn-primary px-4 py-4 rounded-md inline-flex items-center">
+							<button className="bg-[#007aff] btn-primary px-4 py-2 rounded-md inline-flex items-center">
 								Sign up
 							</button>
 						</div>
