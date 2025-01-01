@@ -12,7 +12,7 @@ const Integration = () => {
 				<img src={whiteWave} alt="svg" className="w-full -scale-x-100 " />
 			</div> */}
 			<div className="container">
-				<div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-6 md:mt-12">
+				<div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-6">
 					<div className="lg:me-20 text-center lg:text-start">
 						<h2 className="heading-h2 my-3">
 							Grow your capital by making the right trading predictions
